@@ -1,0 +1,64 @@
+body{
+    color: aqua;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.container{
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    margin: 100px auto 0;
+}
+input{
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid purple;
+
+  #weather-icon{
+    margin-top: 2px;
+  }
+}
+.card{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#search{
+    border-radius: 20px;
+    width: 20%;
+    padding: 10px
+}
+#description{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#forecast{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+    max-width: 100%;
+}
+
+.forecast-item {
+    background-color: green;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    /* Add more styling as needed */
+  }
+
+  #weather-icon{
+    width: 25%;
+    height:150px;
+  }
